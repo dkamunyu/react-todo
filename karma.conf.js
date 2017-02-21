@@ -2,7 +2,7 @@ var webpackConfig = require('./webpack.config.js');
 
 module.exports = function (config) {
   config.set({
-    browserNoActivityTimeout: 20000,
+    browserNoActivityTimeout: 60000,
     browsers: ['Chrome'],
     singleRun: true,
     frameworks: ['mocha'],
